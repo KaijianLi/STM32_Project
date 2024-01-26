@@ -1,0 +1,86 @@
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'F:\STM32\ARM\ARMCC\Bin'
+Build target 'STM32_test_IIC_software'
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal_tim.c...
+compiling gpio.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling main.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling system_stm32f1xx.c...
+compiling OLED_IIC.c...
+linking...
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(.constdata).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_rcc.o(i.HAL_RCC_OscConfig).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_gpio.o(i.HAL_GPIO_Init).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_rcc.o(i.HAL_RCC_ClockConfig).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_Init).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_ShowPicture).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching gpio.o(i.MX_GPIO_Init).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_I2C_SendByte).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.SystemClock_Config).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_I2C_Init).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching rt_memclr_w.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_stackheap_outer.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(i.main).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_I2C_Start).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching startup_stm32f103xb.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(i.HAL_InitTick).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriority).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_I2C_Stop).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_msp.o(i.HAL_MspInit).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_DrawPoint).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_Refresh).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(i.HAL_SYSTICK_Config).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_Clear).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(i.HAL_Init).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_SetCursor).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_WriteCommand).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.OLED_WriteData).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_cortex.o(i.__NVIC_SetPriority).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching oled_iic.o(i.delay_us).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(i.HAL_IncTick).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f1xx.o(.constdata).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal.o(i.HAL_GetTick).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_rcc.o(i.HAL_RCC_GetHCLKFreq).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching exit.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching sys_exit.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_hal_gpio.o(i.HAL_GPIO_WritePin).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching __rtentry2.o(.ARM.Collect$$rtentry$$0000000D).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching heapauxi.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching rtexit2.o(.ARM.Collect$$rtexit$$00000004).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.SysTick_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.BusFault_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.DebugMon_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.HardFault_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.MemManage_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.NMI_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.PendSV_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.SVC_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f1xx_it.o(i.UsageFault_Handler).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f1xx.o(i.SystemInit).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching libinit.o(.ARM.Collect$$libinit$$00000000).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching libshutdown.o(.ARM.Collect$$libshutdown$$00000000).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching use_no_semi.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6406E: No space in execution regions with .ANY selector matching indicate_semi.o(.text).
+STM32_test_IIC_software\STM32_test_IIC_software.axf: Error: L6407E: Sections of aggregate size 0x15254 bytes could not fit into .ANY selector(s).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 57 error messages.
+"STM32_test_IIC_software\STM32_test_IIC_software.axf" - 57 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:07

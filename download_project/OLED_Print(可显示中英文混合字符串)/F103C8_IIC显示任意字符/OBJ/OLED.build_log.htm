@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Tianze 8619839158985, Tianze, LIC=BUURY-IHS39-TGH7T-R2YKD-F38T9-F6MGN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  F:\STM32\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\STM32\STM32_Project\download_project\OLED_Print(可显示中英文混合字符串)\F103C8_IIC显示任意字符\USER\OLED.uvprojx
+Project File Date:  04/18/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(9): warning:  #177-D: variable "s" was declared but never referenced
+        char *s = "哈h";
+main.c(10): warning:  #177-D: variable "i" was declared but never referenced
+        int i;
+main.c: 2 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling oled.c...
+..\HARDWARE\OLED\oledfont.h(227): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  '哈',
+..\HARDWARE\OLED\oledfont.h(231): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  '喽',
+..\HARDWARE\OLED\oledfont.h(235): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  '温',
+..\HARDWARE\OLED\oledfont.h(239): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  '度',
+..\HARDWARE\OLED\oledfont.h(243): warning:  #2548-D: multicharacter character literal (potential portability problem)
+  '℃',
+..\HARDWARE\OLED\oled.c(294): warning:  #223-D: function "strlen" declared implicitly
+        length = strlen(s);//取字符串总长
+..\HARDWARE\OLED\oled.c: 6 warnings, 0 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_md.s...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+linking...
+Program Size: Code=6268 RO-data=2512 RW-data=116 ZI-data=1836  
+FromELF: creating hex file...
+"..\OBJ\OLED.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\STM32\STM32_Project\download_project\OLED_Print(可显示中英文混合字符串)\F103C8_IIC显示任意字符\USER\RTE
+  F:\STM32\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
